@@ -16,3 +16,8 @@ based on the article in [medium.com](https://scientiffic.medium.com/stencilfy-cr
 16 columns, 12 lines (3 IC total)
 For text see vimwiki entry Adventkalender, but can be found also in the
 inkscape svgs.
+
+## Boxes and Divider
+created the basic box and divider with
+[boxes.py UniversalBox](https://festi.info/boxes.py/UniversalBox?language=en)
+[boxes.py TrayDivider](https://festi.info/boxes.py/TrayInsert?language=en)
