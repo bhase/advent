@@ -1,0 +1,1755 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg:svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="297mm"
+   viewBox="0 0 420.00001 297"
+   width="420mm"
+   version="1.1"
+   id="svg178"
+   sodipodi:docname="UniversalBox_16x12.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <svg:defs
+     id="defs182" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1026"
+     id="namedview180"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="0.58791459"
+     inkscape:cx="597.50013"
+     inkscape:cy="619.40676"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg178"
+     inkscape:document-units="mm"
+     inkscape:document-rotation="0" />
+  <!--
+UniversalBox - Box with various options for different styles and lids
+
+Created with Boxes.py (https://festi.info/boxes.py)
+Creation date: 2020-11-28 16:20:12
+Command line (remove spaces between dashes): boxes UniversalBox - -FingerJoint_angle=90.0 - -FingerJoint_style=rectangular - -FingerJoint_surroundingspaces=2.0 - -FingerJoint_edge_width=1.0 - -FingerJoint_finger=1.0 - -FingerJoint_play=0.0 - -FingerJoint_space=1 - -FingerJoint_width=1.0 - -Stackable_angle=60 - -Stackable_height=4.0 - -Stackable_holedistance=1.0 - -Stackable_width=10 - -Hinge_grip_percentage=0 - -Hinge_outset=0 - -Hinge_outset=1 - -Hinge_pinwidth=0.5 - -Hinge_style=outset - -Hinge_axle=2 - -Hinge_grip_length=0 - -Hinge_hingestrength=1 - -CabinetHinge_bore=3.2 - -CabinetHinge_eyes_per_hinge=5 - -CabinetHinge_hinges=2 - -CabinetHinge_style=inside - -CabinetHinge_eye=1.5 - -CabinetHinge_play=0.05 - -CabinetHinge_spacing=2.0 - -Lid_angle=90.0 - -Lid_second_pin=0 - -Lid_second_pin=1 - -Lid_spring=both - -Lid_style=rectangular - -Lid_surroundingspaces=2.0 - -Lid_edge_width=1.0 - -Lid_finger=3.0 - -Lid_play=0.05 - -Lid_space=2.0 - -Lid_width=1.0 - -Click_angle=5.0 - -Click_bottom_radius=0.1 - -Click_depth=3.0 - -RoundedTriangleEdge_height=150.0 - -RoundedTriangleEdge_r_hole=2.0 - -RoundedTriangleEdge_radius=30.0 - -RoundedTriangleEdge_outset=1 - -Flex_stretch=1.05 - -Flex_connection=1.0 - -Flex_distance=0.5 - -Flex_width=5.0 - -top_edge=e - -bottom_edge=s - -x=160 - -y=156.95 - -h=15.0 - -outside=0 '- -vertical_edges=finger joints' '- -lid=default (none)' - -thickness=4.0 - -format=svg - -tabs=0.0 - -debug=0 - -reference=160 - -burn=0.12
+Url: http://festi.info/UniversalBox?FingerJoint_angle=90.0&FingerJoint_style=rectangular&FingerJoint_surroundingspaces=2.0&FingerJoint_edge_width=1.0&FingerJoint_finger=1.0&FingerJoint_play=0.0&FingerJoint_space=1&FingerJoint_width=1.0&Stackable_angle=60&Stackable_height=4.0&Stackable_holedistance=1.0&Stackable_width=10&Hinge_grip_percentage=0&Hinge_outset=0&Hinge_outset=1&Hinge_pinwidth=0.5&Hinge_style=outset&Hinge_axle=2&Hinge_grip_length=0&Hinge_hingestrength=1&CabinetHinge_bore=3.2&CabinetHinge_eyes_per_hinge=5&CabinetHinge_hinges=2&CabinetHinge_style=inside&CabinetHinge_eye=1.5&CabinetHinge_play=0.05&CabinetHinge_spacing=2.0&Lid_angle=90.0&Lid_second_pin=0&Lid_second_pin=1&Lid_spring=both&Lid_style=rectangular&Lid_surroundingspaces=2.0&Lid_edge_width=1.0&Lid_finger=3.0&Lid_play=0.05&Lid_space=2.0&Lid_width=1.0&Click_angle=5.0&Click_bottom_radius=0.1&Click_depth=3.0&RoundedTriangleEdge_height=150.0&RoundedTriangleEdge_r_hole=2.0&RoundedTriangleEdge_radius=30.0&RoundedTriangleEdge_outset=1&Flex_stretch=1.05&Flex_connection=1.0&Flex_distance=0.5&Flex_width=5.0&top_edge=e&bottom_edge=s&x=160&y=156.95&h=15.0&outside=0&vertical_edges=finger+joints&lid=default+%28none%29&thickness=4.0&format=svg&tabs=0.0&debug=0&reference=160&burn=0.12&render=1
+SettingsUrl: http://festi.info/UniversalBox?FingerJoint_angle=90.0&FingerJoint_style=rectangular&FingerJoint_surroundingspaces=2.0&FingerJoint_edge_width=1.0&FingerJoint_finger=1.0&FingerJoint_play=0.0&FingerJoint_space=1&FingerJoint_width=1.0&Stackable_angle=60&Stackable_height=4.0&Stackable_holedistance=1.0&Stackable_width=10&Hinge_grip_percentage=0&Hinge_outset=0&Hinge_outset=1&Hinge_pinwidth=0.5&Hinge_style=outset&Hinge_axle=2&Hinge_grip_length=0&Hinge_hingestrength=1&CabinetHinge_bore=3.2&CabinetHinge_eyes_per_hinge=5&CabinetHinge_hinges=2&CabinetHinge_style=inside&CabinetHinge_eye=1.5&CabinetHinge_play=0.05&CabinetHinge_spacing=2.0&Lid_angle=90.0&Lid_second_pin=0&Lid_second_pin=1&Lid_spring=both&Lid_style=rectangular&Lid_surroundingspaces=2.0&Lid_edge_width=1.0&Lid_finger=3.0&Lid_play=0.05&Lid_space=2.0&Lid_width=1.0&Click_angle=5.0&Click_bottom_radius=0.1&Click_depth=3.0&RoundedTriangleEdge_height=150.0&RoundedTriangleEdge_r_hole=2.0&RoundedTriangleEdge_radius=30.0&RoundedTriangleEdge_outset=1&Flex_stretch=1.05&Flex_connection=1.0&Flex_distance=0.5&Flex_width=5.0&top_edge=e&bottom_edge=s&x=160&y=156.95&h=15.0&outside=0&vertical_edges=finger+joints&lid=default+%28none%29&thickness=4.0&format=svg&tabs=0.0&debug=0&reference=160&burn=0.12
+-->
+  <svg:title
+     id="title2">UniversalBox</svg:title>
+  <svg:metadata
+     id="metadata4">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:title>UniversalBox</dc:title>
+        <dc:date>2020-11-28 16:20:12</dc:date>
+        <dc:source>http://festi.info/UniversalBox?FingerJoint_angle=90.0&amp;FingerJoint_style=rectangular&amp;FingerJoint_surroundingspaces=2.0&amp;FingerJoint_edge_width=1.0&amp;FingerJoint_finger=1.0&amp;FingerJoint_play=0.0&amp;FingerJoint_space=1&amp;FingerJoint_width=1.0&amp;Stackable_angle=60&amp;Stackable_height=4.0&amp;Stackable_holedistance=1.0&amp;Stackable_width=10&amp;Hinge_grip_percentage=0&amp;Hinge_outset=0&amp;Hinge_outset=1&amp;Hinge_pinwidth=0.5&amp;Hinge_style=outset&amp;Hinge_axle=2&amp;Hinge_grip_length=0&amp;Hinge_hingestrength=1&amp;CabinetHinge_bore=3.2&amp;CabinetHinge_eyes_per_hinge=5&amp;CabinetHinge_hinges=2&amp;CabinetHinge_style=inside&amp;CabinetHinge_eye=1.5&amp;CabinetHinge_play=0.05&amp;CabinetHinge_spacing=2.0&amp;Lid_angle=90.0&amp;Lid_second_pin=0&amp;Lid_second_pin=1&amp;Lid_spring=both&amp;Lid_style=rectangular&amp;Lid_surroundingspaces=2.0&amp;Lid_edge_width=1.0&amp;Lid_finger=3.0&amp;Lid_play=0.05&amp;Lid_space=2.0&amp;Lid_width=1.0&amp;Click_angle=5.0&amp;Click_bottom_radius=0.1&amp;Click_depth=3.0&amp;RoundedTriangleEdge_height=150.0&amp;RoundedTriangleEdge_r_hole=2.0&amp;RoundedTriangleEdge_radius=30.0&amp;RoundedTriangleEdge_outset=1&amp;Flex_stretch=1.05&amp;Flex_connection=1.0&amp;Flex_distance=0.5&amp;Flex_width=5.0&amp;top_edge=e&amp;bottom_edge=s&amp;x=160&amp;y=156.95&amp;h=15.0&amp;outside=0&amp;vertical_edges=finger+joints&amp;lid=default+%28none%29&amp;thickness=4.0&amp;format=svg&amp;tabs=0.0&amp;debug=0&amp;reference=160&amp;burn=0.12&amp;render=1</dc:source>
+        <dc:description>Box with various options for different styles and lids
+
+Created with Boxes.py (https://festi.info/boxes.py)
+Command line: boxes UniversalBox --FingerJoint_angle=90.0 --FingerJoint_style=rectangular --FingerJoint_surroundingspaces=2.0 --FingerJoint_edge_width=1.0 --FingerJoint_finger=1.0 --FingerJoint_play=0.0 --FingerJoint_space=1 --FingerJoint_width=1.0 --Stackable_angle=60 --Stackable_height=4.0 --Stackable_holedistance=1.0 --Stackable_width=10 --Hinge_grip_percentage=0 --Hinge_outset=0 --Hinge_outset=1 --Hinge_pinwidth=0.5 --Hinge_style=outset --Hinge_axle=2 --Hinge_grip_length=0 --Hinge_hingestrength=1 --CabinetHinge_bore=3.2 --CabinetHinge_eyes_per_hinge=5 --CabinetHinge_hinges=2 --CabinetHinge_style=inside --CabinetHinge_eye=1.5 --CabinetHinge_play=0.05 --CabinetHinge_spacing=2.0 --Lid_angle=90.0 --Lid_second_pin=0 --Lid_second_pin=1 --Lid_spring=both --Lid_style=rectangular --Lid_surroundingspaces=2.0 --Lid_edge_width=1.0 --Lid_finger=3.0 --Lid_play=0.05 --Lid_space=2.0 --Lid_width=1.0 --Click_angle=5.0 --Click_bottom_radius=0.1 --Click_depth=3.0 --RoundedTriangleEdge_height=150.0 --RoundedTriangleEdge_r_hole=2.0 --RoundedTriangleEdge_radius=30.0 --RoundedTriangleEdge_outset=1 --Flex_stretch=1.05 --Flex_connection=1.0 --Flex_distance=0.5 --Flex_width=5.0 --top_edge=e --bottom_edge=s --x=160 --y=156.95 --h=15.0 --outside=0 '--vertical_edges=finger joints' '--lid=default (none)' --thickness=4.0 --format=svg --tabs=0.0 --debug=0 --reference=160 --burn=0.12
+Url: http://festi.info/UniversalBox?FingerJoint_angle=90.0&amp;FingerJoint_style=rectangular&amp;FingerJoint_surroundingspaces=2.0&amp;FingerJoint_edge_width=1.0&amp;FingerJoint_finger=1.0&amp;FingerJoint_play=0.0&amp;FingerJoint_space=1&amp;FingerJoint_width=1.0&amp;Stackable_angle=60&amp;Stackable_height=4.0&amp;Stackable_holedistance=1.0&amp;Stackable_width=10&amp;Hinge_grip_percentage=0&amp;Hinge_outset=0&amp;Hinge_outset=1&amp;Hinge_pinwidth=0.5&amp;Hinge_style=outset&amp;Hinge_axle=2&amp;Hinge_grip_length=0&amp;Hinge_hingestrength=1&amp;CabinetHinge_bore=3.2&amp;CabinetHinge_eyes_per_hinge=5&amp;CabinetHinge_hinges=2&amp;CabinetHinge_style=inside&amp;CabinetHinge_eye=1.5&amp;CabinetHinge_play=0.05&amp;CabinetHinge_spacing=2.0&amp;Lid_angle=90.0&amp;Lid_second_pin=0&amp;Lid_second_pin=1&amp;Lid_spring=both&amp;Lid_style=rectangular&amp;Lid_surroundingspaces=2.0&amp;Lid_edge_width=1.0&amp;Lid_finger=3.0&amp;Lid_play=0.05&amp;Lid_space=2.0&amp;Lid_width=1.0&amp;Click_angle=5.0&amp;Click_bottom_radius=0.1&amp;Click_depth=3.0&amp;RoundedTriangleEdge_height=150.0&amp;RoundedTriangleEdge_r_hole=2.0&amp;RoundedTriangleEdge_radius=30.0&amp;RoundedTriangleEdge_outset=1&amp;Flex_stretch=1.05&amp;Flex_connection=1.0&amp;Flex_distance=0.5&amp;Flex_width=5.0&amp;top_edge=e&amp;bottom_edge=s&amp;x=160&amp;y=156.95&amp;h=15.0&amp;outside=0&amp;vertical_edges=finger+joints&amp;lid=default+%28none%29&amp;thickness=4.0&amp;format=svg&amp;tabs=0.0&amp;debug=0&amp;reference=160&amp;burn=0.12&amp;render=1
+SettingsUrl: http://festi.info/UniversalBox?FingerJoint_angle=90.0&amp;FingerJoint_style=rectangular&amp;FingerJoint_surroundingspaces=2.0&amp;FingerJoint_edge_width=1.0&amp;FingerJoint_finger=1.0&amp;FingerJoint_play=0.0&amp;FingerJoint_space=1&amp;FingerJoint_width=1.0&amp;Stackable_angle=60&amp;Stackable_height=4.0&amp;Stackable_holedistance=1.0&amp;Stackable_width=10&amp;Hinge_grip_percentage=0&amp;Hinge_outset=0&amp;Hinge_outset=1&amp;Hinge_pinwidth=0.5&amp;Hinge_style=outset&amp;Hinge_axle=2&amp;Hinge_grip_length=0&amp;Hinge_hingestrength=1&amp;CabinetHinge_bore=3.2&amp;CabinetHinge_eyes_per_hinge=5&amp;CabinetHinge_hinges=2&amp;CabinetHinge_style=inside&amp;CabinetHinge_eye=1.5&amp;CabinetHinge_play=0.05&amp;CabinetHinge_spacing=2.0&amp;Lid_angle=90.0&amp;Lid_second_pin=0&amp;Lid_second_pin=1&amp;Lid_spring=both&amp;Lid_style=rectangular&amp;Lid_surroundingspaces=2.0&amp;Lid_edge_width=1.0&amp;Lid_finger=3.0&amp;Lid_play=0.05&amp;Lid_space=2.0&amp;Lid_width=1.0&amp;Click_angle=5.0&amp;Click_bottom_radius=0.1&amp;Click_depth=3.0&amp;RoundedTriangleEdge_height=150.0&amp;RoundedTriangleEdge_r_hole=2.0&amp;RoundedTriangleEdge_radius=30.0&amp;RoundedTriangleEdge_outset=1&amp;Flex_stretch=1.05&amp;Flex_connection=1.0&amp;Flex_distance=0.5&amp;Flex_width=5.0&amp;top_edge=e&amp;bottom_edge=s&amp;x=160&amp;y=156.95&amp;h=15.0&amp;outside=0&amp;vertical_edges=finger+joints&amp;lid=default+%28none%29&amp;thickness=4.0&amp;format=svg&amp;tabs=0.0&amp;debug=0&amp;reference=160&amp;burn=0.12
+</dc:description>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </svg:metadata>
+  <svg:g
+     id="p-1"
+     style="fill:none;stroke-linecap:round;stroke-linejoin:round"
+     transform="translate(170.88437,-86.532537)">
+    <svg:path
+       d="m 22.12,237.55 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 H 24 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path11" />
+    <svg:path
+       d="m 30.12,237.55 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 H 32 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path13" />
+    <svg:path
+       d="m 38.12,237.55 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 H 40 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path15" />
+    <svg:path
+       d="m 46.12,237.55 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 H 48 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path17" />
+    <svg:path
+       d="m 54.12,237.55 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 H 56 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path19" />
+    <svg:path
+       d="m 62.12,237.55 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 H 64 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path21" />
+    <svg:path
+       d="m 70.12,237.55 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 H 72 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path23" />
+    <svg:path
+       d="m 78.12,237.55 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 H 80 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path25" />
+    <svg:path
+       d="m 86.12,237.55 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 H 88 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path27" />
+    <svg:path
+       d="m 94.12,237.55 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 H 96 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path29" />
+    <svg:path
+       d="m 102.12,237.55 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 H 104 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path31" />
+    <svg:path
+       d="m 110.12,237.55 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 H 112 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path33" />
+    <svg:path
+       d="m 118.12,237.55 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 H 120 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path35" />
+    <svg:path
+       d="m 126.12,237.55 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 H 128 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path37" />
+    <svg:path
+       d="m 134.12,237.55 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 H 136 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path39" />
+    <svg:path
+       d="m 142.12,237.55 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 H 144 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path41" />
+    <svg:path
+       d="m 150.12,237.55 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 H 152 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path43" />
+    <svg:path
+       d="m 158.12,237.55 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 H 160 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path45" />
+    <svg:path
+       d="m 166.12,237.55 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 H 168 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path47" />
+    <svg:path
+       d="m 14.12,257.67 h 40 c 2.83,0 5.609,-0.745 8.06,-2.16 2.451,-1.414 4.486,-3.449 5.9,-5.9 1.394,-2.414 3.399,-4.419 5.813,-5.812 2.414,-1.394 5.152,-2.128 7.94,-2.128 h 24.574 c 2.788,0 5.526,0.734 7.94,2.128 2.414,1.393 4.419,3.398 5.813,5.812 1.414,2.451 3.449,4.486 5.9,5.9 2.451,1.415 5.23,2.16 8.06,2.16 h 40 4 c 0.066,0 0.12,-0.054 0.12,-0.12 v -5.5 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -3.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.88 c 0.066,0 0.12,-0.054 0.12,-0.12 v -4 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -3.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.88 c 0.066,0 0.12,-0.054 0.12,-0.12 v -4 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -3.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.88 c 0.066,0 0.12,-0.054 0.12,-0.12 v -4 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -3.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.88 c 0.066,0 0.12,-0.054 0.12,-0.12 v -5.5 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -4 -160 -4 c -0.066,0 -0.12,0.054 -0.12,0.12 v 5.5 c 0,0.066 0.054,0.12 0.12,0.12 H 14 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 h -3.88 c -0.066,0 -0.12,0.054 -0.12,0.12 v 4 c 0,0.066 0.054,0.12 0.12,0.12 H 14 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 h -3.88 c -0.066,0 -0.12,0.054 -0.12,0.12 v 4 c 0,0.066 0.054,0.12 0.12,0.12 H 14 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 h -3.88 c -0.066,0 -0.12,0.054 -0.12,0.12 v 4 c 0,0.066 0.054,0.12 0.12,0.12 H 14 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 h -3.88 c -0.066,0 -0.12,0.054 -0.12,0.12 v 5.5 c 0,0.066 0.054,0.12 0.12,0.12 z"
+       stroke="#000000"
+       stroke-width="0.24"
+       id="path49" />
+  </svg:g>
+  <svg:g
+     id="p-2"
+     style="fill:none;stroke-linecap:round;stroke-linejoin:round"
+     transform="translate(170.88437,-86.532537)">
+    <svg:path
+       d="m 22.12,196.31 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 H 24 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path52" />
+    <svg:path
+       d="m 30.12,196.31 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 H 32 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path54" />
+    <svg:path
+       d="m 38.12,196.31 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 H 40 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path56" />
+    <svg:path
+       d="m 46.12,196.31 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 H 48 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path58" />
+    <svg:path
+       d="m 54.12,196.31 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 H 56 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path60" />
+    <svg:path
+       d="m 62.12,196.31 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 H 64 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path62" />
+    <svg:path
+       d="m 70.12,196.31 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 H 72 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path64" />
+    <svg:path
+       d="m 78.12,196.31 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 H 80 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path66" />
+    <svg:path
+       d="m 86.12,196.31 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 H 88 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path68" />
+    <svg:path
+       d="m 94.12,196.31 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 H 96 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path70" />
+    <svg:path
+       d="m 102.12,196.31 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 H 104 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path72" />
+    <svg:path
+       d="m 110.12,196.31 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 H 112 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path74" />
+    <svg:path
+       d="m 118.12,196.31 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 H 120 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path76" />
+    <svg:path
+       d="m 126.12,196.31 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 H 128 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path78" />
+    <svg:path
+       d="m 134.12,196.31 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 H 136 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path80" />
+    <svg:path
+       d="m 142.12,196.31 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 H 144 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path82" />
+    <svg:path
+       d="m 150.12,196.31 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 H 152 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path84" />
+    <svg:path
+       d="m 158.12,196.31 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 H 160 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path86" />
+    <svg:path
+       d="m 166.12,196.31 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 H 168 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path88" />
+    <svg:path
+       d="m 14.12,216.43 h 40 c 2.83,0 5.609,-0.745 8.06,-2.16 2.451,-1.414 4.486,-3.449 5.9,-5.9 1.394,-2.414 3.399,-4.419 5.813,-5.812 2.414,-1.394 5.152,-2.128 7.94,-2.128 h 24.574 c 2.788,0 5.526,0.734 7.94,2.128 2.414,1.393 4.419,3.398 5.813,5.812 1.414,2.451 3.449,4.486 5.9,5.9 2.451,1.415 5.23,2.16 8.06,2.16 h 40 4 c 0.066,0 0.12,-0.054 0.12,-0.12 v -5.5 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -3.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.88 c 0.066,0 0.12,-0.054 0.12,-0.12 v -4 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -3.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.88 c 0.066,0 0.12,-0.054 0.12,-0.12 v -4 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -3.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.88 c 0.066,0 0.12,-0.054 0.12,-0.12 v -4 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -3.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.88 c 0.066,0 0.12,-0.054 0.12,-0.12 v -5.5 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -4 -160 -4 c -0.066,0 -0.12,0.054 -0.12,0.12 v 5.5 c 0,0.066 0.054,0.12 0.12,0.12 H 14 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 h -3.88 c -0.066,0 -0.12,0.054 -0.12,0.12 v 4 c 0,0.066 0.054,0.12 0.12,0.12 H 14 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 h -3.88 c -0.066,0 -0.12,0.054 -0.12,0.12 v 4 c 0,0.066 0.054,0.12 0.12,0.12 H 14 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 h -3.88 c -0.066,0 -0.12,0.054 -0.12,0.12 v 4 c 0,0.066 0.054,0.12 0.12,0.12 H 14 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 h -3.88 c -0.066,0 -0.12,0.054 -0.12,0.12 v 5.5 c 0,0.066 0.054,0.12 0.12,0.12 z"
+       stroke="#000000"
+       stroke-width="0.24"
+       id="path90" />
+  </svg:g>
+  <svg:g
+     id="p-3"
+     style="fill:none;stroke-linecap:round;stroke-linejoin:round"
+     transform="translate(-0.42869901)">
+    <svg:path
+       d="M 14.12,171.19 H 20 c 0.12,0 0,-0.12 0,0 v 3.88 c 0,0.066 0.054,0.12 0.12,0.12 h 4 c 0.066,0 0.12,-0.054 0.12,-0.12 v -3.88 c 0,-0.12 -0.12,0 0,0 H 28 c 0.12,0 0,-0.12 0,0 v 3.88 c 0,0.066 0.054,0.12 0.12,0.12 h 4 c 0.066,0 0.12,-0.054 0.12,-0.12 v -3.88 c 0,-0.12 -0.12,0 0,0 H 36 c 0.12,0 0,-0.12 0,0 v 3.88 c 0,0.066 0.054,0.12 0.12,0.12 h 4 c 0.066,0 0.12,-0.054 0.12,-0.12 v -3.88 c 0,-0.12 -0.12,0 0,0 H 44 c 0.12,0 0,-0.12 0,0 v 3.88 c 0,0.066 0.054,0.12 0.12,0.12 h 4 c 0.066,0 0.12,-0.054 0.12,-0.12 v -3.88 c 0,-0.12 -0.12,0 0,0 H 52 c 0.12,0 0,-0.12 0,0 v 3.88 c 0,0.066 0.054,0.12 0.12,0.12 h 4 c 0.066,0 0.12,-0.054 0.12,-0.12 v -3.88 c 0,-0.12 -0.12,0 0,0 H 60 c 0.12,0 0,-0.12 0,0 v 3.88 c 0,0.066 0.054,0.12 0.12,0.12 h 4 c 0.066,0 0.12,-0.054 0.12,-0.12 v -3.88 c 0,-0.12 -0.12,0 0,0 H 68 c 0.12,0 0,-0.12 0,0 v 3.88 c 0,0.066 0.054,0.12 0.12,0.12 h 4 c 0.066,0 0.12,-0.054 0.12,-0.12 v -3.88 c 0,-0.12 -0.12,0 0,0 H 76 c 0.12,0 0,-0.12 0,0 v 3.88 c 0,0.066 0.054,0.12 0.12,0.12 h 4 c 0.066,0 0.12,-0.054 0.12,-0.12 v -3.88 c 0,-0.12 -0.12,0 0,0 H 84 c 0.12,0 0,-0.12 0,0 v 3.88 c 0,0.066 0.054,0.12 0.12,0.12 h 4 c 0.066,0 0.12,-0.054 0.12,-0.12 v -3.88 c 0,-0.12 -0.12,0 0,0 H 92 c 0.12,0 0,-0.12 0,0 v 3.88 c 0,0.066 0.054,0.12 0.12,0.12 h 4 c 0.066,0 0.12,-0.054 0.12,-0.12 v -3.88 c 0,-0.12 -0.12,0 0,0 H 100 c 0.12,0 0,-0.12 0,0 v 3.88 c 0,0.066 0.054,0.12 0.12,0.12 h 4 c 0.066,0 0.12,-0.054 0.12,-0.12 v -3.88 c 0,-0.12 -0.12,0 0,0 H 108 c 0.12,0 0,-0.12 0,0 v 3.88 c 0,0.066 0.054,0.12 0.12,0.12 h 4 c 0.066,0 0.12,-0.054 0.12,-0.12 v -3.88 c 0,-0.12 -0.12,0 0,0 H 116 c 0.12,0 0,-0.12 0,0 v 3.88 c 0,0.066 0.054,0.12 0.12,0.12 h 4 c 0.066,0 0.12,-0.054 0.12,-0.12 v -3.88 c 0,-0.12 -0.12,0 0,0 H 124 c 0.12,0 0,-0.12 0,0 v 3.88 c 0,0.066 0.054,0.12 0.12,0.12 h 4 c 0.066,0 0.12,-0.054 0.12,-0.12 v -3.88 c 0,-0.12 -0.12,0 0,0 H 132 c 0.12,0 0,-0.12 0,0 v 3.88 c 0,0.066 0.054,0.12 0.12,0.12 h 4 c 0.066,0 0.12,-0.054 0.12,-0.12 v -3.88 c 0,-0.12 -0.12,0 0,0 H 140 c 0.12,0 0,-0.12 0,0 v 3.88 c 0,0.066 0.054,0.12 0.12,0.12 h 4 c 0.066,0 0.12,-0.054 0.12,-0.12 v -3.88 c 0,-0.12 -0.12,0 0,0 H 148 c 0.12,0 0,-0.12 0,0 v 3.88 c 0,0.066 0.054,0.12 0.12,0.12 h 4 c 0.066,0 0.12,-0.054 0.12,-0.12 v -3.88 c 0,-0.12 -0.12,0 0,0 H 156 c 0.12,0 0,-0.12 0,0 v 3.88 c 0,0.066 0.054,0.12 0.12,0.12 h 4 c 0.066,0 0.12,-0.054 0.12,-0.12 v -3.88 c 0,-0.12 -0.12,0 0,0 H 164 c 0.12,0 0,-0.12 0,0 v 3.88 c 0,0.066 0.054,0.12 0.12,0.12 h 4 c 0.066,0 0.12,-0.054 0.12,-0.12 v -3.88 c 0,-0.12 -0.12,0 0,0 h 5.88 c 0.066,0 0.12,-0.054 0.12,-0.12 v -4.355 c 0,-0.12 -0.12,0 0,0 h 3.88 c 0.066,0 0.12,-0.054 0.12,-0.12 v -4 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -3.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.88 c 0.066,0 0.12,-0.054 0.12,-0.12 v -4 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -3.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.88 c 0.066,0 0.12,-0.054 0.12,-0.12 v -4 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -3.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.88 c 0.066,0 0.12,-0.054 0.12,-0.12 v -4 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -3.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.88 c 0.066,0 0.12,-0.054 0.12,-0.12 v -4 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -3.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.88 c 0.066,0 0.12,-0.054 0.12,-0.12 v -4 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -3.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.88 c 0.066,0 0.12,-0.054 0.12,-0.12 v -4 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -3.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.88 c 0.066,0 0.12,-0.054 0.12,-0.12 v -4 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -3.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.88 c 0.066,0 0.12,-0.054 0.12,-0.12 v -4 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -3.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.88 c 0.066,0 0.12,-0.054 0.12,-0.12 v -4 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -3.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.88 c 0.066,0 0.12,-0.054 0.12,-0.12 v -4 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -3.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.88 c 0.066,0 0.12,-0.054 0.12,-0.12 v -4 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -3.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.88 c 0.066,0 0.12,-0.054 0.12,-0.12 v -4 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -3.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.88 c 0.066,0 0.12,-0.054 0.12,-0.12 v -4 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -3.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.88 c 0.066,0 0.12,-0.054 0.12,-0.12 v -4 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -3.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.88 c 0.066,0 0.12,-0.054 0.12,-0.12 v -4 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -3.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.88 c 0.066,0 0.12,-0.054 0.12,-0.12 v -4 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -3.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.88 c 0.066,0 0.12,-0.054 0.12,-0.12 v -4 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -3.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.88 c 0.066,0 0.12,-0.054 0.12,-0.12 v -4 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -3.88 c -0.12,0 0,0.12 0,0 V 14.12 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -5.88 c -0.12,0 0,0.12 0,0 v -3.88 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -4 C 164.054,10 164,10.054 164,10.12 V 14 c 0,0.12 0.12,0 0,0 h -3.76 c -0.12,0 0,0.12 0,0 v -3.88 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -4 C 156.054,10 156,10.054 156,10.12 V 14 c 0,0.12 0.12,0 0,0 h -3.76 c -0.12,0 0,0.12 0,0 v -3.88 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -4 C 148.054,10 148,10.054 148,10.12 V 14 c 0,0.12 0.12,0 0,0 h -3.76 c -0.12,0 0,0.12 0,0 v -3.88 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -4 C 140.054,10 140,10.054 140,10.12 V 14 c 0,0.12 0.12,0 0,0 h -3.76 c -0.12,0 0,0.12 0,0 v -3.88 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -4 C 132.054,10 132,10.054 132,10.12 V 14 c 0,0.12 0.12,0 0,0 h -3.76 c -0.12,0 0,0.12 0,0 v -3.88 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -4 C 124.054,10 124,10.054 124,10.12 V 14 c 0,0.12 0.12,0 0,0 h -3.76 c -0.12,0 0,0.12 0,0 v -3.88 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -4 C 116.054,10 116,10.054 116,10.12 V 14 c 0,0.12 0.12,0 0,0 h -3.76 c -0.12,0 0,0.12 0,0 v -3.88 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -4 C 108.054,10 108,10.054 108,10.12 V 14 c 0,0.12 0.12,0 0,0 h -3.76 c -0.12,0 0,0.12 0,0 v -3.88 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -4 C 100.054,10 100,10.054 100,10.12 V 14 c 0,0.12 0.12,0 0,0 h -3.76 c -0.12,0 0,0.12 0,0 V 10.12 C 96.24,10.054 96.186,10 96.12,10 h -4 C 92.054,10 92,10.054 92,10.12 V 14 c 0,0.12 0.12,0 0,0 h -3.76 c -0.12,0 0,0.12 0,0 V 10.12 C 88.24,10.054 88.186,10 88.12,10 h -4 C 84.054,10 84,10.054 84,10.12 V 14 c 0,0.12 0.12,0 0,0 h -3.76 c -0.12,0 0,0.12 0,0 V 10.12 C 80.24,10.054 80.186,10 80.12,10 h -4 C 76.054,10 76,10.054 76,10.12 V 14 c 0,0.12 0.12,0 0,0 h -3.76 c -0.12,0 0,0.12 0,0 V 10.12 C 72.24,10.054 72.186,10 72.12,10 h -4 C 68.054,10 68,10.054 68,10.12 V 14 c 0,0.12 0.12,0 0,0 h -3.76 c -0.12,0 0,0.12 0,0 V 10.12 C 64.24,10.054 64.186,10 64.12,10 h -4 C 60.054,10 60,10.054 60,10.12 V 14 c 0,0.12 0.12,0 0,0 h -3.76 c -0.12,0 0,0.12 0,0 V 10.12 C 56.24,10.054 56.186,10 56.12,10 h -4 C 52.054,10 52,10.054 52,10.12 V 14 c 0,0.12 0.12,0 0,0 h -3.76 c -0.12,0 0,0.12 0,0 V 10.12 C 48.24,10.054 48.186,10 48.12,10 h -4 C 44.054,10 44,10.054 44,10.12 V 14 c 0,0.12 0.12,0 0,0 h -3.76 c -0.12,0 0,0.12 0,0 V 10.12 C 40.24,10.054 40.186,10 40.12,10 h -4 C 36.054,10 36,10.054 36,10.12 V 14 c 0,0.12 0.12,0 0,0 h -3.76 c -0.12,0 0,0.12 0,0 V 10.12 C 32.24,10.054 32.186,10 32.12,10 h -4 C 28.054,10 28,10.054 28,10.12 V 14 c 0,0.12 0.12,0 0,0 h -3.76 c -0.12,0 0,0.12 0,0 V 10.12 C 24.24,10.054 24.186,10 24.12,10 h -4 C 20.054,10 20,10.054 20,10.12 V 14 c 0,0.12 0.12,0 0,0 H 14.12 C 14.054,14 14,14.054 14,14.12 v 4.355 c 0,0.12 0.12,0 0,0 h -3.88 c -0.066,0 -0.12,0.054 -0.12,0.12 v 4 c 0,0.066 0.054,0.12 0.12,0.12 H 14 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 h -3.88 c -0.066,0 -0.12,0.054 -0.12,0.12 v 4 c 0,0.066 0.054,0.12 0.12,0.12 H 14 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 h -3.88 c -0.066,0 -0.12,0.054 -0.12,0.12 v 4 c 0,0.066 0.054,0.12 0.12,0.12 H 14 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 h -3.88 c -0.066,0 -0.12,0.054 -0.12,0.12 v 4 c 0,0.066 0.054,0.12 0.12,0.12 H 14 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 h -3.88 c -0.066,0 -0.12,0.054 -0.12,0.12 v 4 c 0,0.066 0.054,0.12 0.12,0.12 H 14 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 h -3.88 c -0.066,0 -0.12,0.054 -0.12,0.12 v 4 c 0,0.066 0.054,0.12 0.12,0.12 H 14 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 h -3.88 c -0.066,0 -0.12,0.054 -0.12,0.12 v 4 c 0,0.066 0.054,0.12 0.12,0.12 H 14 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 h -3.88 c -0.066,0 -0.12,0.054 -0.12,0.12 v 4 c 0,0.066 0.054,0.12 0.12,0.12 H 14 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 h -3.88 c -0.066,0 -0.12,0.054 -0.12,0.12 v 4 c 0,0.066 0.054,0.12 0.12,0.12 H 14 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 h -3.88 c -0.066,0 -0.12,0.054 -0.12,0.12 v 4 c 0,0.066 0.054,0.12 0.12,0.12 H 14 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 h -3.88 c -0.066,0 -0.12,0.054 -0.12,0.12 v 4 c 0,0.066 0.054,0.12 0.12,0.12 H 14 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 h -3.88 c -0.066,0 -0.12,0.054 -0.12,0.12 v 4 c 0,0.066 0.054,0.12 0.12,0.12 H 14 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 h -3.88 c -0.066,0 -0.12,0.054 -0.12,0.12 v 4 c 0,0.066 0.054,0.12 0.12,0.12 H 14 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 h -3.88 c -0.066,0 -0.12,0.054 -0.12,0.12 v 4 c 0,0.066 0.054,0.12 0.12,0.12 H 14 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 h -3.88 c -0.066,0 -0.12,0.054 -0.12,0.12 v 4 c 0,0.066 0.054,0.12 0.12,0.12 H 14 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 h -3.88 c -0.066,0 -0.12,0.054 -0.12,0.12 v 4 c 0,0.066 0.054,0.12 0.12,0.12 H 14 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 h -3.88 c -0.066,0 -0.12,0.054 -0.12,0.12 v 4 c 0,0.066 0.054,0.12 0.12,0.12 H 14 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 h -3.88 c -0.066,0 -0.12,0.054 -0.12,0.12 v 4 c 0,0.066 0.054,0.12 0.12,0.12 H 14 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 h -3.88 c -0.066,0 -0.12,0.054 -0.12,0.12 v 4 c 0,0.066 0.054,0.12 0.12,0.12 H 14 c 0.12,0 0,-0.12 0,0 v 4.355 c 0,0.066 0.054,0.12 0.12,0.12 z"
+       stroke="#000000"
+       stroke-width="0.24"
+       id="path93" />
+  </svg:g>
+  <svg:g
+     id="p-4"
+     style="fill:none;stroke-linecap:round;stroke-linejoin:round"
+     transform="translate(0,-168.80464)">
+    <svg:path
+       d="m 190.835,237.55 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.76 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path96" />
+    <svg:path
+       d="m 198.835,237.55 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.76 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path98" />
+    <svg:path
+       d="m 206.835,237.55 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.76 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path100" />
+    <svg:path
+       d="m 214.835,237.55 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.76 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path102" />
+    <svg:path
+       d="m 222.835,237.55 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.76 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path104" />
+    <svg:path
+       d="m 230.835,237.55 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.76 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path106" />
+    <svg:path
+       d="m 238.835,237.55 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.76 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path108" />
+    <svg:path
+       d="m 246.835,237.55 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.76 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path110" />
+    <svg:path
+       d="m 254.835,237.55 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.76 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path112" />
+    <svg:path
+       d="m 262.835,237.55 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.76 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path114" />
+    <svg:path
+       d="m 270.835,237.55 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.76 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path116" />
+    <svg:path
+       d="m 278.835,237.55 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.76 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path118" />
+    <svg:path
+       d="m 286.835,237.55 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.76 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path120" />
+    <svg:path
+       d="m 294.835,237.55 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.76 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path122" />
+    <svg:path
+       d="m 302.835,237.55 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.76 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path124" />
+    <svg:path
+       d="m 310.835,237.55 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.76 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path126" />
+    <svg:path
+       d="m 318.835,237.55 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.76 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path128" />
+    <svg:path
+       d="m 326.835,237.55 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.76 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path130" />
+    <svg:path
+       d="m 334.835,237.55 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.76 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path132" />
+    <svg:path
+       d="m 184.36,257.67 h 40 c 2.83,0 5.609,-0.745 8.06,-2.16 2.451,-1.414 4.486,-3.449 5.9,-5.9 1.394,-2.414 3.399,-4.419 5.813,-5.812 2.414,-1.394 5.152,-2.128 7.94,-2.128 h 21.524 c 2.788,0 5.526,0.734 7.94,2.128 2.414,1.393 4.419,3.398 5.813,5.812 1.414,2.451 3.449,4.486 5.9,5.9 2.451,1.415 5.23,2.16 8.06,2.16 h 40 c 0.066,0 0.12,-0.054 0.12,-0.12 v -5.38 c 0,-0.12 -0.12,0 0,0 h 3.88 c 0.066,0 0.12,-0.054 0.12,-0.12 v -4 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -3.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.88 c 0.066,0 0.12,-0.054 0.12,-0.12 v -4 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -3.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.88 c 0.066,0 0.12,-0.054 0.12,-0.12 v -4 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -3.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.88 c 0.066,0 0.12,-0.054 0.12,-0.12 v -4 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -3.88 c -0.12,0 0,0.12 0,0 v -5.38 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 H 184.36 c -0.066,0 -0.12,0.054 -0.12,0.12 v 5.38 c 0,0.12 0.12,0 0,0 h -3.88 c -0.066,0 -0.12,0.054 -0.12,0.12 v 4 c 0,0.066 0.054,0.12 0.12,0.12 h 3.88 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 h -3.88 c -0.066,0 -0.12,0.054 -0.12,0.12 v 4 c 0,0.066 0.054,0.12 0.12,0.12 h 3.88 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 h -3.88 c -0.066,0 -0.12,0.054 -0.12,0.12 v 4 c 0,0.066 0.054,0.12 0.12,0.12 h 3.88 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 h -3.88 c -0.066,0 -0.12,0.054 -0.12,0.12 v 4 c 0,0.066 0.054,0.12 0.12,0.12 h 3.88 c 0.12,0 0,-0.12 0,0 v 5.38 c 0,0.066 0.054,0.12 0.12,0.12 z"
+       stroke="#000000"
+       stroke-width="0.24"
+       id="path134" />
+  </svg:g>
+  <svg:g
+     id="p-5"
+     style="fill:none;stroke-linecap:round;stroke-linejoin:round"
+     transform="translate(0,-168.80464)">
+    <svg:path
+       d="m 190.835,196.31 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.76 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path137" />
+    <svg:path
+       d="m 198.835,196.31 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.76 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path139" />
+    <svg:path
+       d="m 206.835,196.31 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.76 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path141" />
+    <svg:path
+       d="m 214.835,196.31 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.76 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path143" />
+    <svg:path
+       d="m 222.835,196.31 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.76 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path145" />
+    <svg:path
+       d="m 230.835,196.31 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.76 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path147" />
+    <svg:path
+       d="m 238.835,196.31 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.76 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path149" />
+    <svg:path
+       d="m 246.835,196.31 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.76 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path151" />
+    <svg:path
+       d="m 254.835,196.31 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.76 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path153" />
+    <svg:path
+       d="m 262.835,196.31 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.76 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path155" />
+    <svg:path
+       d="m 270.835,196.31 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.76 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path157" />
+    <svg:path
+       d="m 278.835,196.31 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.76 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path159" />
+    <svg:path
+       d="m 286.835,196.31 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.76 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path161" />
+    <svg:path
+       d="m 294.835,196.31 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.76 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path163" />
+    <svg:path
+       d="m 302.835,196.31 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.76 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path165" />
+    <svg:path
+       d="m 310.835,196.31 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.76 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path167" />
+    <svg:path
+       d="m 318.835,196.31 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.76 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path169" />
+    <svg:path
+       d="m 326.835,196.31 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.76 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path171" />
+    <svg:path
+       d="m 334.835,196.31 h -1.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.76 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.24"
+       id="path173" />
+    <svg:path
+       d="m 184.36,216.43 h 40 c 2.83,0 5.609,-0.745 8.06,-2.16 2.451,-1.414 4.486,-3.449 5.9,-5.9 1.394,-2.414 3.399,-4.419 5.813,-5.812 2.414,-1.394 5.152,-2.128 7.94,-2.128 h 21.524 c 2.788,0 5.526,0.734 7.94,2.128 2.414,1.393 4.419,3.398 5.813,5.812 1.414,2.451 3.449,4.486 5.9,5.9 2.451,1.415 5.23,2.16 8.06,2.16 h 40 c 0.066,0 0.12,-0.054 0.12,-0.12 v -5.38 c 0,-0.12 -0.12,0 0,0 h 3.88 c 0.066,0 0.12,-0.054 0.12,-0.12 v -4 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -3.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.88 c 0.066,0 0.12,-0.054 0.12,-0.12 v -4 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -3.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.88 c 0.066,0 0.12,-0.054 0.12,-0.12 v -4 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -3.88 c -0.12,0 0,0.12 0,0 v -3.76 c 0,-0.12 -0.12,0 0,0 h 3.88 c 0.066,0 0.12,-0.054 0.12,-0.12 v -4 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 h -3.88 c -0.12,0 0,0.12 0,0 v -5.38 c 0,-0.066 -0.054,-0.12 -0.12,-0.12 H 184.36 c -0.066,0 -0.12,0.054 -0.12,0.12 v 5.38 c 0,0.12 0.12,0 0,0 h -3.88 c -0.066,0 -0.12,0.054 -0.12,0.12 v 4 c 0,0.066 0.054,0.12 0.12,0.12 h 3.88 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 h -3.88 c -0.066,0 -0.12,0.054 -0.12,0.12 v 4 c 0,0.066 0.054,0.12 0.12,0.12 h 3.88 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 h -3.88 c -0.066,0 -0.12,0.054 -0.12,0.12 v 4 c 0,0.066 0.054,0.12 0.12,0.12 h 3.88 c 0.12,0 0,-0.12 0,0 v 3.76 c 0,0.12 0.12,0 0,0 h -3.88 c -0.066,0 -0.12,0.054 -0.12,0.12 v 4 c 0,0.066 0.054,0.12 0.12,0.12 h 3.88 c 0.12,0 0,-0.12 0,0 v 5.38 c 0,0.066 0.054,0.12 0.12,0.12 z"
+       stroke="#000000"
+       stroke-width="0.24"
+       id="path175" />
+  </svg:g>
+  <script>try {
+                        Object.defineProperty(screen, &quot;availTop&quot;, { value: 0 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(screen, &quot;availLeft&quot;, { value: 0 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(screen, &quot;availWidth&quot;, { value: 1920 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(screen, &quot;availHeight&quot;, { value: 1080 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(screen, &quot;colorDepth&quot;, { value: 24 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(screen, &quot;pixelDepth&quot;, { value: 24 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(navigator, &quot;hardwareConcurrency&quot;, { value: 8 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(navigator, &quot;appVersion&quot;, { value: &quot;5.0 (X11)&quot; });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(navigator, &quot;doNotTrack&quot;, { value: &quot;unspecified&quot; });
+                    } catch (e) {}
+                    
+            try {
+                window.screenY = 5
+            } catch (e) { }
+        
+            try {
+                window.screenTop = 5
+            } catch (e) { }
+        
+            try {
+                window.top.window.outerHeight = 1010
+            } catch (e) { }
+        
+            try {
+                window.screenX = 289
+            } catch (e) { }
+        
+            try {
+                window.screenLeft = 289
+            } catch (e) { }
+        
+            try {
+                window.top.window.outerWidth = 1617
+            } catch (e) { }
+        </script>
+  <svg:g
+     id="g1068"
+     transform="translate(-0.42871415,3.7041668)">
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400"
+       cx="19.252298"
+       cy="18.06555"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-3"
+       cx="29.234661"
+       cy="18.06555"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-9"
+       cx="39.217022"
+       cy="18.06555"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-0"
+       cx="49.199387"
+       cy="18.06555"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-8"
+       cx="59.181747"
+       cy="18.06555"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-85"
+       cx="69.164108"
+       cy="18.06555"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-09"
+       cx="79.146469"
+       cy="18.06555"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-6"
+       cx="89.128838"
+       cy="18.06555"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-38"
+       cx="99.111198"
+       cy="18.06555"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-5"
+       cx="109.09356"
+       cy="18.06555"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-61"
+       cx="119.07592"
+       cy="18.06555"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-1"
+       cx="129.05829"
+       cy="18.06555"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-59"
+       cx="139.04065"
+       cy="18.06555"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-84"
+       cx="149.02301"
+       cy="18.06555"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-81"
+       cx="159.00537"
+       cy="18.06555"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-03"
+       cx="168.98773"
+       cy="18.06555"
+       r="2.5" />
+  </svg:g>
+  <svg:g
+     id="g1236"
+     transform="translate(-0.42871415,0.31401507)">
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-4"
+       cx="19.252298"
+       cy="34.330132"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-3-4"
+       cx="29.234661"
+       cy="34.330132"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-9-4"
+       cx="39.217022"
+       cy="34.330132"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-0-4"
+       cx="49.199387"
+       cy="34.330132"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-8-7"
+       cx="59.181747"
+       cy="34.330132"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-85-6"
+       cx="69.164108"
+       cy="34.330132"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-09-3"
+       cx="79.146469"
+       cy="34.330132"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-6-1"
+       cx="89.128838"
+       cy="34.330132"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-38-7"
+       cx="99.111198"
+       cy="34.330132"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-5-5"
+       cx="109.09356"
+       cy="34.330132"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-61-9"
+       cx="119.07592"
+       cy="34.330132"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-1-6"
+       cx="129.05829"
+       cy="34.330132"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-59-2"
+       cx="139.04065"
+       cy="34.330132"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-84-1"
+       cx="149.02301"
+       cy="34.330132"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-81-7"
+       cx="159.00537"
+       cy="34.330132"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-03-8"
+       cx="168.98773"
+       cy="34.330132"
+       r="2.5" />
+  </svg:g>
+  <svg:g
+     id="g1086"
+     transform="translate(-0.42871415,-3.0761366)">
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-7"
+       cx="19.252298"
+       cy="50.594715"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-3-41"
+       cx="29.234661"
+       cy="50.594715"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-9-8"
+       cx="39.217022"
+       cy="50.594715"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-0-5"
+       cx="49.199387"
+       cy="50.594715"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-8-9"
+       cx="59.181747"
+       cy="50.594715"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-85-7"
+       cx="69.164108"
+       cy="50.594715"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-09-5"
+       cx="79.146469"
+       cy="50.594715"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-6-3"
+       cx="89.128838"
+       cy="50.594715"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-38-8"
+       cx="99.111198"
+       cy="50.594715"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-5-8"
+       cx="109.09356"
+       cy="50.594715"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-61-3"
+       cx="119.07592"
+       cy="50.594715"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-1-1"
+       cx="129.05829"
+       cy="50.594715"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-59-8"
+       cx="139.04065"
+       cy="50.594715"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-84-9"
+       cx="149.02301"
+       cy="50.594715"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-81-6"
+       cx="159.00537"
+       cy="50.594715"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-03-4"
+       cx="168.98773"
+       cy="50.594715"
+       r="2.5" />
+  </svg:g>
+  <svg:g
+     id="g1104"
+     transform="translate(-0.42871415,-6.4662881)">
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-33"
+       cx="19.252298"
+       cy="66.859299"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-3-8"
+       cx="29.234661"
+       cy="66.859299"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-9-6"
+       cx="39.217022"
+       cy="66.859299"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-0-0"
+       cx="49.199387"
+       cy="66.859299"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-8-4"
+       cx="59.181747"
+       cy="66.859299"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-85-8"
+       cx="69.164108"
+       cy="66.859299"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-09-8"
+       cx="79.146469"
+       cy="66.859299"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-6-8"
+       cx="89.128838"
+       cy="66.859299"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-38-9"
+       cx="99.111198"
+       cy="66.859299"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-5-7"
+       cx="109.09356"
+       cy="66.859299"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-61-7"
+       cx="119.07592"
+       cy="66.859299"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-1-64"
+       cx="129.05829"
+       cy="66.859299"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-59-3"
+       cx="139.04065"
+       cy="66.859299"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-84-0"
+       cx="149.02301"
+       cy="66.859299"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-81-3"
+       cx="159.00537"
+       cy="66.859299"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-03-0"
+       cx="168.98773"
+       cy="66.859299"
+       r="2.5" />
+  </svg:g>
+  <svg:g
+     id="g1122"
+     transform="translate(-0.42871415,-9.8564316)">
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-2"
+       cx="19.252298"
+       cy="83.123878"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-3-5"
+       cx="29.234661"
+       cy="83.123878"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-9-40"
+       cx="39.217022"
+       cy="83.123878"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-0-59"
+       cx="49.199387"
+       cy="83.123878"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-8-46"
+       cx="59.181747"
+       cy="83.123878"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-85-9"
+       cx="69.164108"
+       cy="83.123878"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-09-2"
+       cx="79.146469"
+       cy="83.123878"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-6-2"
+       cx="89.128838"
+       cy="83.123878"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-38-4"
+       cx="99.111198"
+       cy="83.123878"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-5-77"
+       cx="109.09356"
+       cy="83.123878"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-61-5"
+       cx="119.07592"
+       cy="83.123878"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-1-4"
+       cx="129.05829"
+       cy="83.123878"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-59-81"
+       cx="139.04065"
+       cy="83.123878"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-84-2"
+       cx="149.02301"
+       cy="83.123878"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-81-8"
+       cx="159.00537"
+       cy="83.123878"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-03-9"
+       cx="168.98773"
+       cy="83.123878"
+       r="2.5" />
+  </svg:g>
+  <svg:g
+     id="g1140"
+     transform="translate(-0.42871415,-13.246591)">
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-80"
+       cx="19.252298"
+       cy="99.388466"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-3-2"
+       cx="29.234661"
+       cy="99.388466"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-9-1"
+       cx="39.217022"
+       cy="99.388466"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-0-05"
+       cx="49.199387"
+       cy="99.388466"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-8-1"
+       cx="59.181747"
+       cy="99.388466"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-85-1"
+       cx="69.164108"
+       cy="99.388466"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-09-0"
+       cx="79.146469"
+       cy="99.388466"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-6-85"
+       cx="89.128838"
+       cy="99.388466"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-38-0"
+       cx="99.111198"
+       cy="99.388466"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-5-6"
+       cx="109.09356"
+       cy="99.388466"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-61-4"
+       cx="119.07592"
+       cy="99.388466"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-1-62"
+       cx="129.05829"
+       cy="99.388466"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-59-5"
+       cx="139.04065"
+       cy="99.388466"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-84-8"
+       cx="149.02301"
+       cy="99.388466"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-81-62"
+       cx="159.00537"
+       cy="99.388466"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-03-84"
+       cx="168.98773"
+       cy="99.388466"
+       r="2.5" />
+  </svg:g>
+  <svg:g
+     id="g1158"
+     transform="translate(-0.42871415,-16.636751)">
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-24"
+       cx="19.252298"
+       cy="115.65305"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-3-0"
+       cx="29.234661"
+       cy="115.65305"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-9-62"
+       cx="39.217022"
+       cy="115.65305"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-0-9"
+       cx="49.199387"
+       cy="115.65305"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-8-90"
+       cx="59.181747"
+       cy="115.65305"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-85-81"
+       cx="69.164108"
+       cy="115.65305"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-09-31"
+       cx="79.146469"
+       cy="115.65305"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-6-10"
+       cx="89.128838"
+       cy="115.65305"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-38-3"
+       cx="99.111198"
+       cy="115.65305"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-5-4"
+       cx="109.09356"
+       cy="115.65305"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-61-0"
+       cx="119.07592"
+       cy="115.65305"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-1-3"
+       cx="129.05829"
+       cy="115.65305"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-59-9"
+       cx="139.04065"
+       cy="115.65305"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-84-19"
+       cx="149.02301"
+       cy="115.65305"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-81-69"
+       cx="159.00537"
+       cy="115.65305"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-03-3"
+       cx="168.98773"
+       cy="115.65305"
+       r="2.5" />
+  </svg:g>
+  <svg:g
+     id="g1176"
+     transform="translate(-0.42871415,-20.026903)">
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-05"
+       cx="19.252298"
+       cy="131.91763"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-3-6"
+       cx="29.234661"
+       cy="131.91763"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-9-64"
+       cx="39.217022"
+       cy="131.91763"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-0-00"
+       cx="49.199387"
+       cy="131.91763"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-8-462"
+       cx="59.181747"
+       cy="131.91763"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-85-67"
+       cx="69.164108"
+       cy="131.91763"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-09-56"
+       cx="79.146469"
+       cy="131.91763"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-6-9"
+       cx="89.128838"
+       cy="131.91763"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-38-87"
+       cx="99.111198"
+       cy="131.91763"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-5-2"
+       cx="109.09356"
+       cy="131.91763"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-61-8"
+       cx="119.07592"
+       cy="131.91763"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-1-2"
+       cx="129.05829"
+       cy="131.91763"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-59-99"
+       cx="139.04065"
+       cy="131.91763"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-84-6"
+       cx="149.02301"
+       cy="131.91763"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-81-0"
+       cx="159.00537"
+       cy="131.91763"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-03-2"
+       cx="168.98773"
+       cy="131.91763"
+       r="2.5" />
+  </svg:g>
+  <svg:g
+     id="g1194"
+     transform="translate(-0.42871415,-10.542606)">
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-13"
+       cx="19.252298"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-3-21"
+       cx="29.234661"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-9-5"
+       cx="39.217022"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-0-99"
+       cx="49.199387"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-8-14"
+       cx="59.181747"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-85-91"
+       cx="69.164108"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-09-07"
+       cx="79.146469"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-6-5"
+       cx="89.128838"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-38-870"
+       cx="99.111198"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-5-48"
+       cx="109.09356"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-61-04"
+       cx="119.07592"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-1-29"
+       cx="129.05829"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-59-6"
+       cx="139.04065"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-84-10"
+       cx="149.02301"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-81-4"
+       cx="159.00537"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-03-22"
+       cx="168.98773"
+       cy="148.18221"
+       r="2.5" />
+  </svg:g>
+  <svg:g
+     id="g1212"
+     transform="translate(-0.42871415,-1.0583333)">
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-055"
+       cx="19.252298"
+       cy="164.44679"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-3-29"
+       cx="29.234661"
+       cy="164.44679"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-9-0"
+       cx="39.217022"
+       cy="164.44679"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-0-2"
+       cx="49.199387"
+       cy="164.44679"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-8-8"
+       cx="59.181747"
+       cy="164.44679"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-85-3"
+       cx="69.164108"
+       cy="164.44679"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-09-80"
+       cx="79.146469"
+       cy="164.44679"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-6-4"
+       cx="89.128838"
+       cy="164.44679"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-38-09"
+       cx="99.111198"
+       cy="164.44679"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-5-1"
+       cx="109.09356"
+       cy="164.44679"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-61-96"
+       cx="119.07592"
+       cy="164.44679"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-1-25"
+       cx="129.05829"
+       cy="164.44679"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-59-4"
+       cx="139.04065"
+       cy="164.44679"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-84-4"
+       cx="149.02301"
+       cy="164.44679"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-81-9"
+       cx="159.00537"
+       cy="164.44679"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-03-93"
+       cx="168.98773"
+       cy="164.44679"
+       r="2.5" />
+  </svg:g>
+  <svg:g
+     id="g1194-3"
+     transform="translate(-0.42871415,-23.417037)">
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-13-9"
+       cx="19.252298"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-3-21-4"
+       cx="29.234661"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-9-5-8"
+       cx="39.217022"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-0-99-1"
+       cx="49.199387"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-8-14-2"
+       cx="59.181747"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-85-91-9"
+       cx="69.164108"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-09-07-3"
+       cx="79.146469"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-6-5-9"
+       cx="89.128838"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-38-870-0"
+       cx="99.111198"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-5-48-8"
+       cx="109.09356"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-61-04-8"
+       cx="119.07592"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-1-29-5"
+       cx="129.05829"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-59-6-0"
+       cx="139.04065"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-84-10-9"
+       cx="149.02301"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-81-4-6"
+       cx="159.00537"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-03-22-3"
+       cx="168.98773"
+       cy="148.18221"
+       r="2.5" />
+  </svg:g>
+  <svg:g
+     id="g1194-8"
+     transform="translate(-0.42871415,2.3318247)">
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-13-5"
+       cx="19.252298"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-3-21-6"
+       cx="29.234661"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-9-5-1"
+       cx="39.217022"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-0-99-15"
+       cx="49.199387"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-8-14-9"
+       cx="59.181747"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-85-91-8"
+       cx="69.164108"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-09-07-4"
+       cx="79.146469"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-6-5-8"
+       cx="89.128838"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-38-870-1"
+       cx="99.111198"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-5-48-0"
+       cx="109.09356"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-61-04-3"
+       cx="119.07592"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-1-29-0"
+       cx="129.05829"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-59-6-4"
+       cx="139.04065"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-84-10-4"
+       cx="149.02301"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-81-4-4"
+       cx="159.00537"
+       cy="148.18221"
+       r="2.5" />
+    <svg:circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path400-03-22-4"
+       cx="168.98773"
+       cy="148.18221"
+       r="2.5" />
+  </svg:g>
+</svg:svg>
