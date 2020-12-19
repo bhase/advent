@@ -13,7 +13,7 @@
 #define PIN_NUM_CLK  14
 #define PIN_NUM_CS   15
 
-#define SPI_FREQ_HZ (5*1000*1000)
+#define SPI_FREQ_HZ (1*1000*1000)
 
 typedef enum {
     NoOp_cmd = 0,

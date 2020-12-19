@@ -19,6 +19,8 @@
 #include "lwip/err.h"
 #include "lwip/sys.h"
 
+#include "max72xx.h"
+
 /* The examples use WiFi configuration that you can set via project configuration menu
 
    If you'd rather not, just change the below entries to strings with
@@ -147,4 +149,18 @@ void app_main(void)
 
     ESP_LOGI(TAG, "ESP_WIFI_MODE_STA");
     wifi_init_sta();
+
+    ESP_LOGI(TAG, "SPI...");
+    MAX72XX_init();
+
+    // Block for 500ms.
+    const TickType_t xDelay = 500 / portTICK_PERIOD_MS;
+
+    for( ;; )
+    {
+        MAX72XX_set_intensity(0, 4);
+        MAX72XX_set_intensity(2, 8);
+        MAX72XX_write_to_device();
+        vTaskDelay( xDelay );
+    }
 }
