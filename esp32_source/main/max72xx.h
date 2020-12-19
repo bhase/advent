@@ -14,7 +14,7 @@ typedef enum {
 typedef uint8_t TestMode_t;
 typedef uint8_t Segment_t;
 typedef enum {
-    Digit1 = 0,
+    Digit1 = 1,
     Digit2,
     Digit3,
     Digit4,
@@ -30,6 +30,17 @@ void MAX72XX_set_intensity(Dev_t device, Intensity_t intensity);
 void MAX72XX_set_scan_limit(Dev_t device, ScanLimit_t scan_limit);
 void MAX72XX_set_shutdown(Dev_t device, Shutdown_t mode);
 void MAX72XX_set_display_test(Dev_t device, TestMode_t mode);
+
+/* No decode mode association of segments:
+ *  A
+ * F B
+ *  G
+ * E C
+ *  D DP
+ *
+ * B7 B6 B5 B4 B3 B2 B1 B0
+ * DP A  B  C  D  E  F  G
+ */
 void MAX72XX_set_digit_n(Dev_t device, Digit_t digit, Segment_t segments);
 void MAX72XX_init(void);
 

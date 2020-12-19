@@ -199,7 +199,6 @@ void MAX72XX_set_display_test(Dev_t device, TestMode_t mode)
     list->transmit_queue[list->current_pos++] = mode;
 }
 
-
 void MAX72XX_set_digit_n(Dev_t device, Digit_t digit, Segment_t segments)
 {
     if (device >= MAX72XX_DEVICENUM) {
@@ -207,6 +206,10 @@ void MAX72XX_set_digit_n(Dev_t device, Digit_t digit, Segment_t segments)
         return;
     }
     /* put into local display buffer */
+    MAX72XX_transfer_list_t *list = &MAX72XX_transfer_list[device];
+    list->register_mirror[digit] = segments;
+    list->transmit_queue[list->current_pos++] = digit;
+    list->transmit_queue[list->current_pos++] = segments;
 }
 
 void MAX72XX_init(void)
