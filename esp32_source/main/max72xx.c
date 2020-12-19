@@ -9,11 +9,6 @@
 #include "max72xx.h"
 #include "max72xx_config.h"
 
-#define PIN_NUM_MOSI 13
-#define PIN_NUM_CLK  14
-#define PIN_NUM_CS   15
-
-#define SPI_FREQ_HZ (1*1000*1000)
 
 typedef enum {
     NoOp_cmd = 0,
@@ -46,18 +41,16 @@ typedef enum {
     Displaytest_reg = 0xD,
 } MAX72XX_Commands_t;
 
-static inline void MAX72XX_set_digit_n(Dev_t device, Segment_t segments, Digit_t digit);
-
-static spi_device_handle_t MAX72XX_spi;
-
-
 typedef struct {
     /* 14 register per device */
     uint8_t register_mirror[14];
     /* Which registers shall be written */
     uint8_t current_pos;
-    MAX72XX_Commands_t transmit_queue[2 * 14]; /* Cmd + data */
+    MAX72XX_Commands_t transmit_queue[2 * MAX72XX_QUEUE_SIZE]; /* Cmd + data */
 } MAX72XX_transfer_list_t;
+
+
+static spi_device_handle_t MAX72XX_spi;
 
 static MAX72XX_transfer_list_t MAX72XX_transfer_list[MAX72XX_DEVICENUM];
 
@@ -86,16 +79,16 @@ static void MAX72XX_spi_init(void)
     esp_err_t ret;
     spi_bus_config_t buscfg={
         .miso_io_num=-1,
-        .mosi_io_num=PIN_NUM_MOSI,
-        .sclk_io_num=PIN_NUM_CLK,
+        .mosi_io_num=MAX72XX_PIN_NUM_MOSI,
+        .sclk_io_num=MAX72XX_PIN_NUM_CLK,
         .quadwp_io_num=-1,
         .quadhd_io_num=-1,
         .max_transfer_sz=32,
     };
     spi_device_interface_config_t devcfg={
-        .clock_speed_hz=SPI_FREQ_HZ,            //Clock out at defined frequency
+        .clock_speed_hz=MAX72XX_SPI_FREQ_HZ,    //Clock out at defined frequency
         .mode=0,                                //SPI mode 0
-        .spics_io_num=PIN_NUM_CS,               //CS pin
+        .spics_io_num=MAX72XX_PIN_NUM_CS,       //CS pin
         .queue_size=7,                          //We want to be able to queue 7 transactions at a time
     };
     //Initialize the SPI bus
@@ -113,7 +106,7 @@ void MAX72XX_write_to_device(void)
     int only_nops = false;
     /* write all relevant registers */
     /* each register is an own transmit event */
-    for (int i = 0; (i < 28) && (only_nops == false); i += 2) {
+    for (int i = 0; (i < (MAX72XX_QUEUE_SIZE * 2)) && (only_nops == false); i += 2) {
         /* max 14 commands to transmit */
         only_nops = true;
         for (int d = 0; d < MAX72XX_DEVICENUM; d++) {
@@ -207,17 +200,12 @@ void MAX72XX_set_display_test(Dev_t device, TestMode_t mode)
 }
 
 
-void MAX72XX_set_digit_0(Dev_t device, Segment_t segment)
+void MAX72XX_set_digit_n(Dev_t device, Digit_t digit, Segment_t segments)
 {
     if (device >= MAX72XX_DEVICENUM) {
         /* out of range */
         return;
     }
-    MAX72XX_set_digit_n(device, segment, 0);
-}
-
-static inline void MAX72XX_set_digit_n(Dev_t device, Segment_t segments, Digit_t digit)
-{
     /* put into local display buffer */
 }
 
