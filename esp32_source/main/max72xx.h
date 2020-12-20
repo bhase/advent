@@ -6,10 +6,19 @@ typedef int Dev_t;
 
 typedef uint8_t DecodeMode_t;
 typedef uint8_t Intensity_t;
-typedef uint8_t ScanLimit_t;
 typedef enum {
-    Normal = 0,
-    Shutdown,
+    OneDigit = 0,
+    TwoDigit,
+    ThreeDigit,
+    FourDigit,
+    FiveDigit,
+    SixDigit,
+    SevenDigit,
+    EightDigit,
+} ScanLimit_t;
+typedef enum {
+    Shutdown = 0,
+    Normal = 1,
 } Shutdown_t;
 typedef uint8_t TestMode_t;
 typedef uint8_t Segment_t;

@@ -19,7 +19,7 @@
 #include "lwip/err.h"
 #include "lwip/sys.h"
 
-#include "max72xx.h"
+#include "calendar.h"
 
 /* The examples use WiFi configuration that you can set via project configuration menu
 
@@ -39,7 +39,7 @@ static EventGroupHandle_t s_wifi_event_group;
 #define WIFI_CONNECTED_BIT BIT0
 #define WIFI_FAIL_BIT      BIT1
 
-static const char *TAG = "wifi station";
+static const char *TAG = "advent calendar";
 
 static int s_retry_num = 0;
 
@@ -151,16 +151,17 @@ void app_main(void)
     wifi_init_sta();
 
     ESP_LOGI(TAG, "SPI...");
-    MAX72XX_init();
+    Cal_init_display();
 
-    // Block for 500ms.
-    const TickType_t xDelay = 500 / portTICK_PERIOD_MS;
+    // Block for 1500ms.
+    const TickType_t xDelay = 1500 / portTICK_PERIOD_MS;
 
     for( ;; )
     {
-        MAX72XX_set_intensity(0, 4);
-        MAX72XX_set_intensity(2, 8);
-        MAX72XX_write_to_device();
+        Cal_display_until_event(Vierter_Advent, 0);
+        vTaskDelay( xDelay );
+
+        Cal_display_until_event(Heiligabend, 4);
         vTaskDelay( xDelay );
     }
 }
