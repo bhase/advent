@@ -83,7 +83,7 @@ static const Cal_word_t Word_zweite  = { .pattern = 0x00FD, .digit = Digit8, .de
 static const Cal_word_t DWord_dritten = { .pattern = 0xFE00, .digit = Digit1, .dev = 2 };
 static const Cal_word_t DWord_dritte  = { .pattern = 0xFD00, .digit = Digit1, .dev = 2 };
 static const Cal_word_t DWord_vierten = { .pattern = 0x00FE, .digit = Digit1, .dev = 2 };
-static const Cal_word_t DWord_vierte  = { .pattern = 0x00FD, .digit = Digit1, .dev = 2 };
+static const Cal_word_t DWord_vierte  = { .pattern = 0x00FC, .digit = Digit1, .dev = 2 };
 
 /* Digit 1 + 5 */
 static const Cal_word_t DWord_Heiligabend = { .pattern = 0x1FFC, .digit = Digit2, .dev = 2 };
@@ -93,7 +93,7 @@ static const Cal_word_t DWord_Lars       = { .pattern = 0xF000, .digit = Digit3,
 static const Cal_word_t DWord_Geburtstag = { .pattern = 0x07FE, .digit = Digit3, .dev = 2 };
 
 /* Digit 3 + 7 */
-static const Cal_word_t DWord_Advent     = { .pattern = 0xFE00, .digit = Digit4, .dev = 2 };
+static const Cal_word_t DWord_Advent     = { .pattern = 0xFC00, .digit = Digit4, .dev = 2 };
 static const Cal_word_t DWord_Sylvester  = { .pattern = 0x01FF, .digit = Digit4, .dev = 2 };
 
 #define DEV_0_VAL(val)  (((val) & 0xFF00) >> 8)
