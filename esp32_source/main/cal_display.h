@@ -1,5 +1,5 @@
-#ifndef CALENDAR_H_
-#define CALENDAR_H_
+#ifndef CAL_DISPLAY_H_
+#define CAL_DISPLAY_H_
 
 typedef enum {
     Ronjas_Geburtstag,

@@ -15,11 +15,13 @@
 #include "esp_event.h"
 #include "esp_log.h"
 #include "nvs_flash.h"
+#include "esp_sntp.h"
 
 #include "lwip/err.h"
 #include "lwip/sys.h"
 
-#include "calendar.h"
+#include "cal_display.h"
+#include "cal_time.h"
 
 /* The examples use WiFi configuration that you can set via project configuration menu
 
@@ -137,6 +139,31 @@ void wifi_init_sta(void)
     vEventGroupDelete(s_wifi_event_group);
 }
 
+
+static void obtain_time(void)
+{
+    // wait for time to be set
+    time_t now = 0;
+    struct tm timeinfo = { 0 };
+    int retry = 0;
+    const int retry_count = 10;
+    while (sntp_get_sync_status() == SNTP_SYNC_STATUS_RESET && ++retry < retry_count) {
+        ESP_LOGI(TAG, "Waiting for system time to be set... (%d/%d)", retry, retry_count);
+        vTaskDelay(2000 / portTICK_PERIOD_MS);
+    }
+    time(&now);
+    localtime_r(&now, &timeinfo);
+}
+
+static void initialize_sntp(void)
+{
+    ESP_LOGI(TAG, "Initializing SNTP");
+    sntp_setoperatingmode(SNTP_OPMODE_POLL);
+    sntp_setservername(0, "pool.ntp.org");
+    //sntp_set_time_sync_notification_cb(time_sync_notification_cb);
+    sntp_init();
+}
+
 void app_main(void)
 {
     //Initialize NVS
@@ -150,18 +177,20 @@ void app_main(void)
     ESP_LOGI(TAG, "ESP_WIFI_MODE_STA");
     wifi_init_sta();
 
+    initialize_sntp();
+    obtain_time();
+
     ESP_LOGI(TAG, "SPI...");
     Cal_init_display();
+    Time_init();
 
-    // Block for 1500ms.
-    const TickType_t xDelay = 1500 / portTICK_PERIOD_MS;
+    // Block for n ms.
+    const TickType_t xDelay = 5000 / portTICK_PERIOD_MS;
+    int days = 0;
 
     for( ;; )
     {
-        Cal_display_until_event(Vierter_Advent, 0);
-        vTaskDelay( xDelay );
-
-        Cal_display_until_event(Heiligabend, 4);
+        Time_show_event();
         vTaskDelay( xDelay );
     }
 }

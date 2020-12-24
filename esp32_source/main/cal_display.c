@@ -1,7 +1,9 @@
 #include <stdint.h>
 #include <string.h>
 #include "max72xx.h"
-#include "calendar.h"
+#include "cal_display.h"
+
+#include "esp_log.h"
 
 /*
    D a b c d e f g | D a b c d e f g
@@ -34,11 +36,11 @@ typedef struct {
 /* Digit 0 */
 static const Cal_word_t Word_Es     = { .pattern = 0xC000, .digit = Digit1, .dev = 0 };
 static const Cal_word_t Word_Morgen = { .pattern = 0x3F00, .digit = Digit1, .dev = 0 };
-static const Cal_word_t Word_sind   = { .pattern = 0x0070, .digit = Digit1, .dev = 0 };
+static const Cal_word_t Word_sind   = { .pattern = 0x0078, .digit = Digit1, .dev = 0 };
 // static const Cal_word_t Word_es     = { .pattern = 0x0003, .digit = Digit1, .dev = 0 };
 
 /* Digit 1 */
-static const Cal_word_t Word_Heute  = { .pattern = 0xF000, .digit = Digit2, .dev = 0 };
+static const Cal_word_t Word_Heute  = { .pattern = 0xF800, .digit = Digit2, .dev = 0 };
 static const Cal_word_t Word_ist    = { .pattern = 0x0380, .digit = Digit2, .dev = 0 };
 static const Cal_word_t Word_noch   = { .pattern = 0x003C, .digit = Digit2, .dev = 0 };
 
@@ -56,7 +58,7 @@ static const Cal_word_t Word_vier   = { .pattern = 0x000F, .digit = Digit4, .dev
 
 /* Digit 4 */
 static const Cal_word_t Word_fuenf  = { .pattern = 0xF000, .digit = Digit5, .dev = 0 };
-static const Cal_word_t Word_Tage   = { .pattern = 0x0710, .digit = Digit5, .dev = 0 };
+static const Cal_word_t Word_Tage   = { .pattern = 0x0780, .digit = Digit5, .dev = 0 };
 // static const Cal_word_t Word_Tag    = { .pattern = 0x0700, .digit = Digit5, .dev = 0 };
 static const Cal_word_t Word_Wochen = { .pattern = 0x007E, .digit = Digit5, .dev = 0 };
 static const Cal_word_t Word_Woche  = { .pattern = 0x007C, .digit = Digit5, .dev = 0 };
@@ -73,7 +75,7 @@ static const Cal_word_t Word_Hendriks = { .pattern = 0x00FF, .digit = Digit7, .d
 
 /* Digit 7 */
 static const Cal_word_t Word_ersten  = { .pattern = 0x7E00, .digit = Digit8, .dev = 0 };
-static const Cal_word_t Word_erste   = { .pattern = 0x7D00, .digit = Digit8, .dev = 0 };
+static const Cal_word_t Word_erste   = { .pattern = 0x7C00, .digit = Digit8, .dev = 0 };
 static const Cal_word_t Word_zweiten = { .pattern = 0x00FE, .digit = Digit8, .dev = 0 };
 static const Cal_word_t Word_zweite  = { .pattern = 0x00FD, .digit = Digit8, .dev = 0 };
 
@@ -117,6 +119,8 @@ void Cal_display_until_event(Cal_Event_t event, int days)
      * This also means: index 0 is unused! */
     uint8_t display_buffer[3][9];
 
+    ESP_LOGI("CAL", "Got event %d with %d days left", event, days);
+
     /* clear display */
     memset(display_buffer, 0, sizeof(display_buffer));
 
@@ -128,6 +132,16 @@ void Cal_display_until_event(Cal_Event_t event, int days)
     /* and then add pattern... */
     if (days >= 7) {
         weeks = days / 7;
+
+        if ((days % 7) != 0) {
+            /* Es sind noch mehr als ... Wochen bis */
+            display_buffer[Word_mehr.dev    ][Word_mehr.digit] |= DEV_0_VAL(Word_mehr.pattern);
+            display_buffer[Word_mehr.dev + 1][Word_mehr.digit] |= DEV_1_VAL(Word_mehr.pattern);
+
+            display_buffer[Word_als.dev    ][Word_als.digit] |= DEV_0_VAL(Word_als.pattern);
+            display_buffer[Word_als.dev + 1][Word_als.digit] |= DEV_1_VAL(Word_als.pattern);
+        }
+
         if (weeks == 1) {
             /* Es ist noch eine Woche ... bis */
             display_buffer[Word_Es.dev    ][Word_Es.digit] |= DEV_0_VAL(Word_Es.pattern);
@@ -161,8 +175,11 @@ void Cal_display_until_event(Cal_Event_t event, int days)
 
             /* get word for number */
             const Cal_word_t *word = Cal_get_word_for_number(weeks, FEMALE);
+            if (weeks > 6) {
+                word = &Word_sechs;
+            }
             display_buffer[word->dev    ][word->digit] |= DEV_0_VAL(word->pattern);
-            display_buffer[word->dev + 1][word->digit] |= DEV_0_VAL(word->pattern);
+            display_buffer[word->dev + 1][word->digit] |= DEV_1_VAL(word->pattern);
 
             display_buffer[Word_Wochen.dev    ][Word_Wochen.digit] |= DEV_0_VAL(Word_Wochen.pattern);
             display_buffer[Word_Wochen.dev + 1][Word_Wochen.digit] |= DEV_1_VAL(Word_Wochen.pattern);
@@ -208,7 +225,7 @@ void Cal_display_until_event(Cal_Event_t event, int days)
         /* get word for number */
         const Cal_word_t *word = Cal_get_word_for_number(days, MALE);
         display_buffer[word->dev    ][word->digit] |= DEV_0_VAL(word->pattern);
-        display_buffer[word->dev + 1][word->digit] |= DEV_0_VAL(word->pattern);
+        display_buffer[word->dev + 1][word->digit] |= DEV_1_VAL(word->pattern);
 
         display_buffer[Word_Tage.dev    ][Word_Tage.digit] |= DEV_0_VAL(Word_Tage.pattern);
         display_buffer[Word_Tage.dev + 1][Word_Tage.digit] |= DEV_1_VAL(Word_Tage.pattern);
