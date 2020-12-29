@@ -6,7 +6,7 @@
 #include "esp_log.h"
 
 /*
-   D a b c d e f g | D a b c d e f g
+   D a b c d e f g  | D a b c d e f g
 --------------------+----------------
 1  E s M o r g e n  | L s i n d T e s
 2  H e u t e G i s  | t D n o c h A o
@@ -14,6 +14,7 @@
 4  e i n e z w e i  | d r e i v i e r
 5  f ü n f M T a g  | e W o c h e n Z
 6  T b i s m z u m  | F r e d a s O p
+6  b i s m z u m F  | r e d a s d e r // corrected version with der
 7  m R o n j a s v  | H e n d r i k s
 8  Y e r s t e n t  | z w e i t e n x
 --------------------+-------------------
@@ -62,6 +63,10 @@ static const Cal_word_t Word_Tage   = { .pattern = 0x0780, .digit = Digit5, .dev
 // static const Cal_word_t Word_Tag    = { .pattern = 0x0700, .digit = Digit5, .dev = 0 };
 static const Cal_word_t Word_Wochen = { .pattern = 0x007E, .digit = Digit5, .dev = 0 };
 static const Cal_word_t Word_Woche  = { .pattern = 0x007C, .digit = Digit5, .dev = 0 };
+static const Cal_word_t Word_der    = { .pattern = 0x00A2, .digit = Digit5, .dev = 0 };
+/* for the corrected front plate this word suits better
+static const Cal_word_t Word_der    = { .pattern = 0x0007, .digit = Digit7, .dev = 0 };
+*/
 
 /* Digit 5 */
 static const Cal_word_t Word_bis    = { .pattern = 0x7000, .digit = Digit6, .dev = 0 };
@@ -295,8 +300,10 @@ void Cal_display_until_event(Cal_Event_t event, int days)
         } else {
             display_buffer[Word_erste.dev    ][Word_erste.digit] |= DEV_0_VAL(Word_erste.pattern);
             display_buffer[Word_erste.dev + 1][Word_erste.digit] |= DEV_1_VAL(Word_erste.pattern);
-        }
 
+            display_buffer[Word_der.dev    ][Word_der.digit] |= DEV_0_VAL(Word_der.pattern);
+            display_buffer[Word_der.dev + 1][Word_der.digit] |= DEV_1_VAL(Word_der.pattern);
+        }
         display_buffer[DWord_Advent.dev][DWord_Advent.digit    ] |= DEV_2_DIGIT_a(DWord_Advent.pattern);
         display_buffer[DWord_Advent.dev][DWord_Advent.digit + 4] |= DEV_2_DIGIT_b(DWord_Advent.pattern);
         break;
@@ -311,6 +318,9 @@ void Cal_display_until_event(Cal_Event_t event, int days)
         } else {
             display_buffer[Word_zweite.dev    ][Word_zweite.digit] |= DEV_0_VAL(Word_zweite.pattern);
             display_buffer[Word_zweite.dev + 1][Word_zweite.digit] |= DEV_1_VAL(Word_zweite.pattern);
+
+            display_buffer[Word_der.dev    ][Word_der.digit] |= DEV_0_VAL(Word_der.pattern);
+            display_buffer[Word_der.dev + 1][Word_der.digit] |= DEV_1_VAL(Word_der.pattern);
         }
 
         display_buffer[DWord_Advent.dev][DWord_Advent.digit    ] |= DEV_2_DIGIT_a(DWord_Advent.pattern);
@@ -327,6 +337,9 @@ void Cal_display_until_event(Cal_Event_t event, int days)
         } else {
             display_buffer[DWord_dritte.dev][DWord_dritte.digit    ] |= DEV_2_DIGIT_a(DWord_dritte.pattern);
             display_buffer[DWord_dritte.dev][DWord_dritte.digit + 4] |= DEV_2_DIGIT_b(DWord_dritte.pattern);
+
+            display_buffer[Word_der.dev    ][Word_der.digit] |= DEV_0_VAL(Word_der.pattern);
+            display_buffer[Word_der.dev + 1][Word_der.digit] |= DEV_1_VAL(Word_der.pattern);
         }
 
         display_buffer[DWord_Advent.dev][DWord_Advent.digit    ] |= DEV_2_DIGIT_a(DWord_Advent.pattern);
@@ -343,6 +356,9 @@ void Cal_display_until_event(Cal_Event_t event, int days)
         } else {
             display_buffer[DWord_vierte.dev][DWord_vierte.digit    ] |= DEV_2_DIGIT_a(DWord_vierte.pattern);
             display_buffer[DWord_vierte.dev][DWord_vierte.digit + 4] |= DEV_2_DIGIT_b(DWord_vierte.pattern);
+
+            display_buffer[Word_der.dev    ][Word_der.digit] |= DEV_0_VAL(Word_der.pattern);
+            display_buffer[Word_der.dev + 1][Word_der.digit] |= DEV_1_VAL(Word_der.pattern);
         }
 
         display_buffer[DWord_Advent.dev][DWord_Advent.digit    ] |= DEV_2_DIGIT_a(DWord_Advent.pattern);
