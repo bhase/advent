@@ -1,2 +1,5 @@
 *.dxf
 .*.swp
+# backup files
+*.bak
+*.sch-bak
