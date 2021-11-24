@@ -81,13 +81,13 @@ Wire Wire Line
 	5650 5200 5650 3750
 Wire Wire Line
 	5650 3750 6300 3750
-Wire Notes Line
+Wire Notes Line width 20 style solid rgb(255, 0, 0)
 	4050 5050 4200 5050
-Wire Notes Line
+Wire Notes Line width 20 style solid rgb(255, 0, 0)
 	4200 5050 4200 5400
-Wire Notes Line
+Wire Notes Line width 20 style solid rgb(255, 0, 0)
 	4200 5400 4300 5400
-Text Notes 3950 5050 0    50   ~ 0
+Text Notes 3950 5050 0    50   ~ 10
 Level shifting necessary
 Text Notes 2950 1750 0    50   ~ 0
 Note: This is a NodeMCU board\nso power supply over USB etc. available
