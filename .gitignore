@@ -3,3 +3,4 @@
 # backup files
 *.bak
 *.sch-bak
+.ccls-cache
