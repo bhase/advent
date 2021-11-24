@@ -392,7 +392,7 @@ void Cal_init_display(void)
     for (int dev = 0; dev < 3; dev++) {
         MAX72XX_set_scan_limit(dev, EightDigit);
         MAX72XX_set_shutdown(dev, Normal);
-        MAX72XX_set_intensity(dev, 0x8);
+        MAX72XX_set_intensity(dev, 0xF);
     }
     MAX72XX_write_to_device();
 }

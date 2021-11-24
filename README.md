@@ -2,6 +2,13 @@
 
 Electronic calendar similar to a word clock
 
+## Microcontoller
+It is an ESP32 board
+TODO describe HW setup and SW setup
+### Software
+* get esp-idf (github.com:espressif/esp-idf.git)
+* before usage call 'export.sh' in the installation directory
+
 ## Doing
 Time based on sntp with ESP32, controlling LEDs with MAX7221 (maybe shift
 registers)
@@ -21,3 +28,7 @@ inkscape svgs.
 created the basic box and divider with
 [boxes.py UniversalBox](https://festi.info/boxes.py/UniversalBox?language=en)
 [boxes.py TrayDivider](https://festi.info/boxes.py/TrayInsert?language=en)
+
+# Improvements
+- randomize which text is shown
+- adjustable display brightness

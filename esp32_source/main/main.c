@@ -186,7 +186,6 @@ void app_main(void)
 
     // Block for n ms.
     const TickType_t xDelay = 5000 / portTICK_PERIOD_MS;
-    int days = 0;
 
     for( ;; )
     {
