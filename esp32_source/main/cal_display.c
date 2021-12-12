@@ -56,6 +56,10 @@ static const Cal_word_t Word_ein    = { .pattern = 0xE000, .digit = Digit4, .dev
 static const Cal_word_t Word_zwei   = { .pattern = 0x0F00, .digit = Digit4, .dev = 0 };
 static const Cal_word_t Word_drei   = { .pattern = 0x00F0, .digit = Digit4, .dev = 0 };
 static const Cal_word_t Word_vier   = { .pattern = 0x000F, .digit = Digit4, .dev = 0 };
+static const Cal_word_t Word_der    = { .pattern = 0x00A1, .digit = Digit4, .dev = 0 };
+/* for the corrected front plate this word suits better
+static const Cal_word_t Word_der    = { .pattern = 0x0007, .digit = Digit6, .dev = 0 };
+*/
 
 /* Digit 4 */
 static const Cal_word_t Word_fuenf  = { .pattern = 0xF000, .digit = Digit5, .dev = 0 };
@@ -63,10 +67,6 @@ static const Cal_word_t Word_Tage   = { .pattern = 0x0780, .digit = Digit5, .dev
 // static const Cal_word_t Word_Tag    = { .pattern = 0x0700, .digit = Digit5, .dev = 0 };
 static const Cal_word_t Word_Wochen = { .pattern = 0x007E, .digit = Digit5, .dev = 0 };
 static const Cal_word_t Word_Woche  = { .pattern = 0x007C, .digit = Digit5, .dev = 0 };
-static const Cal_word_t Word_der    = { .pattern = 0x00A2, .digit = Digit5, .dev = 0 };
-/* for the corrected front plate this word suits better
-static const Cal_word_t Word_der    = { .pattern = 0x0007, .digit = Digit7, .dev = 0 };
-*/
 
 /* Digit 5 */
 static const Cal_word_t Word_bis    = { .pattern = 0x7000, .digit = Digit6, .dev = 0 };
@@ -88,7 +88,7 @@ static const Cal_word_t Word_zweite  = { .pattern = 0x00FD, .digit = Digit8, .de
 
 /* Digit 0 + 4 */
 static const Cal_word_t DWord_dritten = { .pattern = 0xFE00, .digit = Digit1, .dev = 2 };
-static const Cal_word_t DWord_dritte  = { .pattern = 0xFD00, .digit = Digit1, .dev = 2 };
+static const Cal_word_t DWord_dritte  = { .pattern = 0xFC00, .digit = Digit1, .dev = 2 };
 static const Cal_word_t DWord_vierten = { .pattern = 0x00FE, .digit = Digit1, .dev = 2 };
 static const Cal_word_t DWord_vierte  = { .pattern = 0x00FC, .digit = Digit1, .dev = 2 };
 
